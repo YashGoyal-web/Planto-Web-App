@@ -1,0 +1,91 @@
+.carousel-inner img {
+    width: 100%;
+}
+.carousel-indicators > li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #000000;
+}
+.c-logo{
+    font-size:25px;
+    padding: 5px;
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+}
+.nav-link{
+    color:black;
+}
+.nav-link:hover{
+    color:green;
+    font-weight: bold;
+}
+
+.c-garden:hover{
+    filter: grayscale(100%) drop-shadow(0px 0px 10px black);
+}
+.c-button{
+    transition: transform .6s;
+}
+.c-button:hover{
+    transform:translate(5px,0px);
+}
+.c-border{
+    background: linear-gradient(to right,#1eda75 50%, rgb(153, 153, 153) 50% );
+    background-size: 200%;
+    background-position:right ;
+    transition: .5s ease;
+    border: 15px solid white;
+}
+.c-border:hover{
+    background-position: left ;
+}
+.c-footerlink{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.c-footerlink a{
+    color: white;
+    text-decoration: none;
+}
+.c-footerlink li{
+    padding-bottom: 15px;
+}
+.c-footerlink a:hover{
+    color:black;
+}
+.c-map{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.c-map:hover{
+    color: #000000;
+}
+footer{
+    color:white;
+    margin-top: 30px;
+    background-color: black;
+    padding: 10px;
+    height: 40px;
+}
+footer p{
+    float: left;
+}
+footer figure{
+    float: right;
+}
+footer a{
+    color: rgb(186, 186, 186);
+    text-decoration: none;
+    padding: 0 5px;
+}
+footer a:hover{
+    color: rgb(0, 255, 0);
+}
+#mytopbtn{
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px;
+    display: none;
+}
